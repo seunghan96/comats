@@ -1,5 +1,5 @@
 #!/bin/bash
-export CUDA_VISIBLE_DEVICES=6
+export CUDA_VISIBLE_DEVICES=2
 ep=25
 model_name=S_Mamba_reg4_wo_conv_wo_TD2
 
