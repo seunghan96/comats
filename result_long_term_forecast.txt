@@ -4957,3 +4957,6 @@ mse:0.21084541082382202, mae:0.24970047175884247
 ETTh2_96_96_S_Mamba_reg3_wo_conv_wo_TD1_ETTh2_M_ft96_sl48_ll96_pl256_dm8_nh2_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0_lambda0.2  
 mse:0.3026576638221741, mae:0.3534626066684723
 
+ETTh2_96_192_S_Mamba_reg3_wo_conv_wo_TD1_ETTh2_M_ft96_sl48_ll192_pl256_dm8_nh2_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0_lambda0.2  
+mse:0.3803503215312958, mae:0.4015680253505707
+
