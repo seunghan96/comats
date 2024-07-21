@@ -1,5 +1,5 @@
 #!/bin/bash
-export CUDA_VISIBLE_DEVICES=6
+export CUDA_VISIBLE_DEVICES=0
 ep=25
 model_name=S_Mamba_reg3
 
@@ -31,6 +31,7 @@ do
     --d_state 2 \
     --learning_rate 0.00004 \
     --lamb $lamb\
+    --train_epochs $ep\
     --itr 1
 
   python -u run.py \
@@ -53,6 +54,7 @@ do
     --d_state 2 \
     --learning_rate 0.00004 \
     --lamb $lamb\
+    --train_epochs $ep\
     --itr 1
 
   python -u run.py \
@@ -75,6 +77,7 @@ do
     --d_state 2 \
     --learning_rate 0.00003 \
     --lamb $lamb\
+    --train_epochs $ep\
     --itr 1
 
   python -u run.py \
@@ -97,5 +100,6 @@ do
     --d_state 2 \
     --learning_rate 0.00007 \
     --lamb $lamb\
+    --train_epochs $ep\
     --itr 1
 done
