@@ -4,7 +4,7 @@ ep=25
 model_name=S_Mamba_reg4_wo_conv_wo_TD1
 
 # List of lambda values to iterate over
-lamb_values=(0.0001 0.001 0.01 0.1)
+lamb_values=(0 0.0001 0.001 0.01 0.1)
 
 for lamb in "${lamb_values[@]}"
 do

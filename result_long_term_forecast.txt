@@ -5507,6 +5507,7 @@ mse:0.10687602311372757, mae:0.22082501649856567
 ETTm2_96_192_S_Mamba_reg4_wo_conv_wo_TD2_ETTm2_M_ft96_sl48_ll192_pl128_dm8_nh2_el1_dl128_df1_fctimeF_ebTrue_dtExp_projection_0  
 mse:0.24723529815673828, mae:0.3071189820766449
 
+<<<<<<< HEAD
 PEMS08_96_96_S_Mamba_reg3_wo_conv_wo_TD1_PEMS_M_ft96_sl48_ll96_pl256_dm8_nh4_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0_lambda0.0001  
 mse:nan, mae:nan
 
@@ -5665,4 +5666,26 @@ mse:0.7441449761390686, mae:0.4526076018810272
 
 PEMS03_96_96_S_Mamba_reg3_wo_conv_wo_TD2_PEMS_M_ft96_sl48_ll96_pl512_dm8_nh4_el1_dl512_df1_fctimeF_ebTrue_dtExp_projection_0_lambda0.01  
 mse:0.2224489152431488, mae:0.32691842317581177
+=======
+ETTm1_96_96_S_Mamba_reg3_wo_conv_wo_TD2_ETTm1_M_ft96_sl48_ll96_pl256_dm8_nh2_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.33855506777763367, mae:0.3727370500564575
+
+ETTm1_96_96_S_Mamba_reg4_wo_conv_wo_TD2_ETTm1_M_ft96_sl48_ll96_pl256_dm8_nh2_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.330161452293396, mae:0.36632969975471497
+
+ETTm1_96_192_S_Mamba_reg3_wo_conv_wo_TD2_ETTm1_M_ft96_sl48_ll192_pl128_dm8_nh2_el1_dl128_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.37843596935272217, mae:0.3906470239162445
+
+ETTm2_96_96_S_Mamba_reg4_wo_conv_wo_TD2_ETTm2_M_ft96_sl48_ll96_pl256_dm8_nh2_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.18078577518463135, mae:0.26253876090049744
+
+ETTm1_96_192_S_Mamba_reg4_wo_conv_wo_TD2_ETTm1_M_ft96_sl48_ll192_pl128_dm8_nh2_el1_dl128_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.3759090304374695, mae:0.39042606949806213
+
+ETTm2_96_96_S_Mamba_reg3_wo_conv_wo_TD2_ETTm2_M_ft96_sl48_ll96_pl256_dm8_nh2_el1_dl256_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.18090303242206573, mae:0.26314881443977356
+
+ETTm1_96_336_S_Mamba_reg3_wo_conv_wo_TD2_ETTm1_M_ft96_sl48_ll336_pl128_dm8_nh2_el1_dl128_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:0.4125245213508606, mae:0.4121153652667999
+>>>>>>> 3d5135635c7c40a702c32e1f47ac01d7a97d288f
 
