@@ -6166,3 +6166,6 @@ mse:0.226766437292099, mae:0.2580168843269348
 weather_96_336_S_Mamba_reg4_wo_conv_custom_M_ft96_sl48_ll336_pl512_dm8_nh3_el1_dl512_df1_fctimeF_ebTrue_dtExp_projection_0_lambda0.1  
 mse:0.28144997358322144, mae:0.2970130443572998
 
+ECL_96_720_S_Mamba_reg3_wo_conv_wo_TD1_custom_M_ft96_sl48_ll720_pl512_dm8_nh3_el1_dl512_df1_fctimeF_ebTrue_dtExp_projection_0  
+mse:nan, mae:nan
+
