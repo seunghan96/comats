@@ -1,10 +1,10 @@
 #!/bin/bash
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=4
 ep=25
 model_name=S_Mamba_reg4_wo_conv
 
 # List of lambda values to iterate over
-lamb_values=(0 0.0001 0.001 0.01 0.1 0.2)
+lamb_values=(0 0.0001 0.001 0.01 0.1)
 
 for lamb in "${lamb_values[@]}"
 do
